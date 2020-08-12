@@ -10,6 +10,8 @@ before () {
 },
 ```
 
+In your `tsconfig.json` add `webdriverio-wait-and` to the `types` array.
+
 In your tests:
 ```js
 $('.my-element').waitAnd().click();

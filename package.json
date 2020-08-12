@@ -1,6 +1,6 @@
 {
   "name": "webdriverio-wait-and",
-  "version": "0.6.0",
+  "version": "0.6.2",
   "description": "Custom commands for WebdriverIO to wait for the element to be there, before doing an action on it.",
   "main": "index.js",
   "types": "index.d.ts",
