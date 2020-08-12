@@ -1,0 +1,18 @@
+{
+  "name": "node-webdriverio-wait-commands",
+  "version": "0.6.0",
+  "description": "",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marklagendijk/node-webdriverio-wait-commands.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marklagendijk/node-webdriverio-wait-commands/issues"
+  },
+  "homepage": "https://github.com/marklagendijk/node-webdriverio-wait-commands#readme"
+}
