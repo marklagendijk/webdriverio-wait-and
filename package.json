@@ -1,18 +1,18 @@
 {
-  "name": "node-webdriverio-wait-commands",
+  "name": "webdriverio-wait-and",
   "version": "0.6.0",
-  "description": "",
+  "description": "Custom commands for WebdriverIO to wait for the element to be there, before doing an action on it.",
   "main": "index.js",
   "types": "index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/marklagendijk/node-webdriverio-wait-commands.git"
+    "url": "git+https://github.com/marklagendijk/webdriverio-wait-and.git"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/marklagendijk/node-webdriverio-wait-commands/issues"
+    "url": "https://github.com/marklagendijk/webdriverio-wait-and/issues"
   },
-  "homepage": "https://github.com/marklagendijk/node-webdriverio-wait-commands#readme"
+  "homepage": "https://github.com/marklagendijk/webdriverio-wait-and#readme"
 }
