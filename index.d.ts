@@ -14,3 +14,7 @@ declare namespace WebdriverIO {
         waitAndSetValue(value: string): void;
     }
 }
+
+declare module "webdriverio-wait-and"{
+    export = WebdriverIO
+}
