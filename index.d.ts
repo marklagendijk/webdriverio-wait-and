@@ -3,7 +3,7 @@ declare namespace WebdriverIO {
         /**
          * Chainable alternative to Element.waitForClickable
          */
-        waitAnd(): WebdriverIO.Element;
+        waitAnd(options?: WebdriverIO.WaitForOptions): WebdriverIO.Element;
         /**
          * Waits until the element is clickable, and clicks it
          */

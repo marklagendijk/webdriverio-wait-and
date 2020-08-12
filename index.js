@@ -7,8 +7,8 @@ function registerCommands(){
     browser.addCommand('waitAndSetValue', waitAndSetValue, true);
 }
 
-function waitAnd(){
-    this.waitForClickable();
+function waitAnd(options){
+    this.waitForClickable(options);
     return this;
 }
 
