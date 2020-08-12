@@ -16,6 +16,6 @@ function waitAndClick(){
     this.waitAnd().click();
 }
 
-function waitForClickable(value){
+function waitAndSetValue(value){
     this.waitAnd().setValue(value);
 }
