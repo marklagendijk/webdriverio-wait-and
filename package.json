@@ -14,5 +14,21 @@
   "bugs": {
     "url": "https://github.com/marklagendijk/webdriverio-wait-and/issues"
   },
-  "homepage": "https://github.com/marklagendijk/webdriverio-wait-and#readme"
+  "homepage": "https://github.com/marklagendijk/webdriverio-wait-and#readme",
+  "scripts": {
+    "lint": "prettier --write ."
+  },
+  "devDependencies": {
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.11",
+    "prettier": "^2.0.5"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*": "prettier --write"
+  }
 }
